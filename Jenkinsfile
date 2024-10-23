@@ -1,8 +1,7 @@
 pipeline {
     agent any
 
-    environment {
-        JAVA_HOME = tool 'JDK11'     // Jenkins JDK11 tool
+    environment
         EC2_USER = 'ubuntu'          // EC2 instance user
         EC2_HOST = '13.201.22.8'     // EC2 instance public IP
     }
